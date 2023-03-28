@@ -68,7 +68,4 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-const titleInput = document.querySelector('#title');
-titleInput.addEventListener('click', () => {
-  alertMessage.innerHTML = '';
 });

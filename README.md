@@ -67,7 +67,7 @@ I find the following features to be intresting::
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Link to live demo](https://abenezerassefa.github.io/Awsome-Books-Js/)
+[Link to live demo](https://abenezerassefa.github.io/Awesome-Books-Js/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/AbenezerAssefa/Awsome-Books-Js.git
+  git clone https://github.com/AbenezerAssefa/Awesome-Books-Js.git
 ```
 
 ### Install
@@ -121,7 +121,7 @@ Example command:
 
 ### Deployment
 
-- https://abenezerassefa.github.io/Awsome-Books-Js/
+- https://abenezerassefa.github.io/Awesome-Books-Js/
 
 <!--
 Example:

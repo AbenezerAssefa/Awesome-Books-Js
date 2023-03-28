@@ -1,33 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet" />
-  <title>Document</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Delicious+Handrawn&display=swap" rel="stylesheet">
+    <title>Awesome Books</title>
+    <!-- <script>
+       function displayDate() {
+          document.getElementById("showDate").innerHTML = Date();
+       }
+    </script> -->
+  </head>
 
-<body>
-  <main class="main">
-    <h1>All Awesome Books</h1>
-    <div class="bookList">
-      <ul id="books-list"></ul>
+  <body>
+    <div class="main">
+      <!-- nav bar /////////////////////////////////////////// -->
+      <div class="nav-bar">
+        <div class="nav-bar-title">Awesome Books</div>
+        <nav>
+          <ul class="list-add-contact">
+            <li class="nav-list">List</li>
+            <hr>
+            <li class="nav-add">Add New</li>
+            <hr>
+            <li class="nav-contact">Contact</li>
+          </ul>
+        </nav>
+      </div>
+      <p class="n">March 28,2023 7:20:30pm</p>
+      <!-- <button class="bu" type="button" onclick="displayDate()">Time</button>
+      <p id="showDate"></p> -->
+      <!-- first tab ///////////////////////////////////////// -->
+      <div class="list">
+        <h1>All Awesome Books</h1>
+        <div class="added-books"></div>
+      </div>
+      <!-- second tab //////////////////////////////////////// -->
+      <div class="add-a-new-book hide">
+        <h2>Add a new book</h2>
+        <div class="add-title-and-author">
+          <input class="add-title" type="text" placeholder="Title"/>
+          <input class="add-author" type="text" placeholder="Author"/>
+          <div class="add-button-container">
+            <button type="submit" class="add-button">Add</button>
+          </div>
+        </div>
+        <div class="alert-message"></div>
+      </div>
+      <!-- third tab ///////////////////////////////////////// -->
+      <div class="contact hide">
+        <h2>Contact Information</h2>
+        <p>This is our Contact Us page ,maincity, Africa.
+          <ul>
+            <li>Our E-mail: Abe@gamil.com</li>
+            <li>Our Phone: 09567834</li>
+            <li>Our Address Street 322, 84503 , Africa.</li>
+          </ul>
+        </p>
+      </div>
+ 
+      <!-- footer -->
+      <footer>Copyright ...</footer>
     </div>
 
-    <form id="add-book-form">
-      <h3>Add a new Book</h3>
-      <input type="text" id="title" placeholder="Title" required /><br /><br />
-      <input type="text" id="author" placeholder="Author" required /><br /><br />
-      <div class="alert-message"></div>
-      <button type="submit">Add</button>
-    </form>
-  </main>
-  <script src="script.js"></script>
-</body>
 
+    <script src="script.js"></script>
+  </body>
 </html>

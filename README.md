@@ -142,6 +142,11 @@ Example:
 - GitHub: [@AbenezerAssefa](https://github.com/AbenezerAssefa)
 - LinkedIn: [Abenezer](https://www.linkedin.com/in/abenezer-assefa-386b25193)
 
+👤 **Enobong Isong**
+
+- GitHub: [@EnobongIsong](https://github.com/Enoisong)
+- LinkedIn: [EnobongIsong](https://www.linkedin.com/in/enobong-isong/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

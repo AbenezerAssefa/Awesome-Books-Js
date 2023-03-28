@@ -25,6 +25,12 @@ body {
   margin-top: 15px;
 }
 
+button {
+  background-color: #87ceeb;
+  color: black;
+  width: 90px;
+}
+
 h1 {
   margin-bottom: -5px;
 }

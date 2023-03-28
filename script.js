@@ -1,4 +1,4 @@
- const addedBooks = document.querySelector('.added-books'); // In this div the html wil be created dinamically
+const addedBooks = document.querySelector('.added-books'); // In this div the html wil be created dinamically
 let books = []; // In this array all the new books will be added
 let removeButton = [];
 

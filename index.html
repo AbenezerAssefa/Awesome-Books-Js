@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <link rel="stylesheet" href="style.css">
-    <title>Awesome Books</title>
-  </head>
 
-  <body>
-    <div class="main">
-      <div class="list">
-        <h1>Awesome book's</h1>
-        <div class="added-books"></div>
-      </div>
-      <div class="add-a-new-book">
-        <div class="add-title-and-author">
-          <input class="add-title" type="text" placeholder="Title"/>
-          <input class="add-author" type="text" placeholder="Author"/>
-          <div class="add-button-container">
-            <button type="submit" class="add-button">Add</button>
-          </div>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="main">
+    <h1>All Awesome Books</h1>
+    <div class="bookList">
+      <ul id="books-list"></ul>
     </div>
 
-    <script src="script.js"></script>
-  </body>
+    <form id="add-book-form">
+      <h3>Add a new Book</h3>
+      <input type="text" id="title" placeholder="Title" required /><br /><br />
+      <input type="text" id="author" placeholder="Author" required /><br /><br />
+      <div class="alert-message"></div>
+      <button type="submit">Add</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+
 </html>

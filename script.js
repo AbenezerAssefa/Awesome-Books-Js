@@ -6,8 +6,7 @@ let booksArray = []; // In this array all the new books will be added
 let removeButtonArray = []; // It will contain all the remove buttons
 const addButton = document.querySelector('.add-button');
 
-const newTitle = document.querySelector('.add-title'); // User input
-const newAuthor = document.querySelector('.add-author'); // User input
+
 
 // the Book class contains: constructor, add, remove, and print methods
 class Book {

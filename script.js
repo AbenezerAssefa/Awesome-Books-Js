@@ -1,3 +1,7 @@
+class Books {
+  constructor() {
+    this.books = JSON.parse(localStorage.getItem('books')) || [];
+  }
 
   displayBooks() {
     const booksList = document.getElementById('books-list');

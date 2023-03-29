@@ -25,7 +25,7 @@
 
 # 📖 Awsome Books<a name="about-project"></a>
 
-**Awsome Books** is a website that stores a books which can add and also remove.
+**Awsome Books**  is a simple website that displays a list of books and allows you to add and remove books from that list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
